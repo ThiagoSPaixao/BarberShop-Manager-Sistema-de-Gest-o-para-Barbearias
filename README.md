@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Logo" width="200">
+</p>
+
 # 💈 BarberShop Manager  
 Sistema de Gestão para Barbearias em Python
 
@@ -7,9 +11,6 @@ Sistema de Gestão para Barbearias em Python
 
 ---
 
-<p align="center">
-  <img src="assets/logo.png" alt="Logo" width="200">
-</p>
 
 ## ✂️ Sobre o Projeto
 O **BarberShop Manager** é um sistema criado em Python para auxiliar barbearias no controle diário de:
