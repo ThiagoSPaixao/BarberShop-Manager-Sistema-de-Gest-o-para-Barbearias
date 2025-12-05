@@ -61,3 +61,32 @@ btn_remover.pack(pady=10, fill="x")
 # ---------------------------------------------------------
 # 5) Títulos de Serviços e Produtos (lado direito)
 # ---------------------------------------------------------
+
+titulo_servicos = tk.Label(
+    frame_direita,
+    text="SERVIÇOS",
+    bg="#F1F1F1",
+    fg="black",
+    font=("Arial", 16, "bold")
+)
+titulo_servicos.pack(pady=10)
+
+lista_servicos = tk.Listbox(frame_direita, font=("Arial", 12), width=60, height=10)
+lista_servicos.pack(pady=5)
+
+titulo_produtos = tk.Label(
+    frame_direita,
+    text="PRODUTOS",
+    bg="#F1F1F1",
+    fg="black",
+    font=("Arial", 16, "bold")
+)
+titulo_produtos.pack(pady=10)
+
+lista_produtos = tk.Listbox(frame_direita, font=("Arial", 12), width=60, height=10)
+lista_produtos.pack(pady=5)
+
+# ---------------------------------------------------------
+# 6) Iniciar o programa
+# ---------------------------------------------------------
+janela.mainloop()
