@@ -47,6 +47,8 @@ Sistema de confirmação para exclusões
 
 Módulo simples de funcionários
 
+---
+
 🗂 Estrutura do Projeto (exemplo)
 /barbershop-manager
  └── main.py
