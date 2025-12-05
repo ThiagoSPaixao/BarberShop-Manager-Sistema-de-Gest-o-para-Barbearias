@@ -21,12 +21,17 @@ botao_adicionar.pack(fill="x", pady=5)
 botao_editar = ctk.CTkButton(frame_esquerda, text="Editar")
 botao_editar.pack(fill="x", pady=5)
 
-# 6. Botão Remover
+# 7. Botão Remover
 botao_remover = ctk.CTkButton(frame_esquerda, text="Remover")
 botao_remover.pack(fill="x", pady=5)
 
+# 8. Criar o quadro da direita (lista de serviços e produtos)
+frame_direita = ctk.CTkFrame(janela, corner_radius=10)
+frame_direita.pack(side="right", fill="both", expand=True, padx=10, pady=10)
 
-
+# 9. Título SERVIÇOS
+label_servicos = ctk.CTkLabel(frame_direita, text="SERVIÇOS", font=("Arial", 18, "bold"))
+label_servicos.pack(anchor="nw", pady=(10, 5), padx=10)
 
 
 
