@@ -32,6 +32,10 @@ Ideal para pequenos estabelecimentos que precisam organizar seu fluxo de atendim
 ## 🚀 Como Rodar o Projeto
 ```bash
 git clone https://github.com/ThiagoSPaixao/barbershop-manager
+cd barbershop-manager
+python main.py
+```
+---
 
 📚 Funcionalidades
 
@@ -50,6 +54,7 @@ Módulo simples de funcionários
 ---
 
 🗂 Estrutura do Projeto (exemplo)
+```bash
 /barbershop-manager
  └── main.py
  └── services/
@@ -57,15 +62,8 @@ Módulo simples de funcionários
  └── employees/
  └── sales/
  └── data/
-
+```
+---
 🤝 Contribuições
 
 Sinta-se à vontade para abrir issues e enviar pull requests.
-
-📝 Licença
-
-Este projeto está sob a licença MIT.
-
-
-cd barbershop-manager
-python main.py
