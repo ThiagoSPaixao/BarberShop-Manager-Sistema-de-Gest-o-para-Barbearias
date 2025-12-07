@@ -53,6 +53,13 @@ ctk.CTkLabel(lista_produtos, text="Gel Capilar _____________ R$ 8,00").pack(anch
 ctk.CTkLabel(lista_produtos, text="Pomada Modeladora _______ R$ 25,00").pack(anchor="w", pady=2)
 ctk.CTkLabel(lista_produtos, text="Espuma de Barbear _______ R$ 15,00").pack(anchor="w", pady=2)
 
+# Função para abrir a janela de adicionar item
+def abrir_janela_adicionar():
+    janela_add = ctk.CTkToplevel(janela)
+    janela_add.title("Adicionar Item")
+    janela_add.geometry("350x300")
+
+
 
 #Iniciar o loop da interface
 janela.mainloop()
