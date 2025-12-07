@@ -59,10 +59,5 @@ def abrir_janela_adicionar():
     janela_add.title("Adicionar Item")
     janela_add.geometry("350x300")
 
-# Título
-    titulo = ctk.CTkLabel(janela_add, text="Adicionar Serviço ou Produto", font=("Arial", 16, "bold"))
-    titulo.pack(pady=10)
-
-
 #Iniciar o loop da interface
 janela.mainloop()
