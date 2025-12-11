@@ -1,0 +1,9 @@
+# Criar arquivo requirements.txt
+echo "customtkinter>=5.2.0
+CTkMessagebox>=2.5
+Pillow>=10.0.0
+pandas>=2.0.0
+matplotlib>=3.7.0" > requirements.txt
+
+# Instalar
+pip install -r requirements.txt

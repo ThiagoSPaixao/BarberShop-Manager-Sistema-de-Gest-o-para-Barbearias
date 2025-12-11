@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nome": "Corte Tesoura",
+    "preco": 22.0
+  },
+  {
+    "id": 2,
+    "nome": "Corte Máquina",
+    "preco": 20.0
+  },
+  {
+    "id": 4,
+    "nome": "Barba",
+    "preco": 15.0
+  }
+]

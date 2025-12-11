@@ -1,0 +1,4 @@
+Backup criado em: 2025-12-11 17:02:40.077211
+Arquivo: backups\backup_20251211_170240.db
+Clientes: 2
+Vendas: 0

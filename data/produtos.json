@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nome": "Gel Capilar",
+    "preco": 8.0,
+    "estoque": 20
+  },
+  {
+    "id": 2,
+    "nome": "Pomada Modeladora",
+    "preco": 25.0,
+    "estoque": 12
+  },
+  {
+    "id": 3,
+    "nome": "Espuma de Barbear",
+    "preco": 15.0,
+    "estoque": 10
+  }
+]

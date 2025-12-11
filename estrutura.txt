@@ -1,0 +1,16 @@
+barbearia_granada/
+│
+├── sistema.py              # Este arquivo
+├── barbearia.db            # Banco de dados (criado automaticamente)
+├── requirements.txt        # Dependências
+│
+├── backups/                # Backups automáticos
+│   ├── backup_20241210_143022.db
+│   └── backup_20241210_143022.txt
+│
+├── relatorios/             # Relatórios exportados
+│   ├── financeiro_2024-12.pdf
+│   └── vendas_2024-12.xlsx
+│
+└── config/                 # Configurações
+    └── empresa.json
